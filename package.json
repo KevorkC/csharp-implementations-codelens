@@ -1,0 +1,90 @@
+{
+  "name": "csharp-implementations-codelens",
+  "displayName": "C# Implementations CodeLens",
+  "description": "Shows how many implementations a C# interface, interface member, or abstract/virtual member has — click to go to the implementation or peek all of them. Rider-style implementations CodeLens that complements the C# extension's references CodeLens.",
+  "version": "0.1.3",
+  "publisher": "KevorkC",
+  "license": "MIT",
+  "icon": "icon.png",
+  "pricing": "Free",
+  "galleryBanner": {
+    "color": "#3B0764",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "csharp",
+    "c#",
+    "dotnet",
+    ".net",
+    "codelens",
+    "code lens",
+    "implementations",
+    "implementation count",
+    "go to implementation",
+    "find implementations",
+    "interface implementations",
+    "implementations codelens",
+    "interface",
+    "abstract class",
+    "abstract method",
+    "virtual method",
+    "override",
+    "peek implementations",
+    "code navigation",
+    "rider",
+    "jetbrains rider",
+    "roslyn"
+  ],
+  "activationEvents": [
+    "onLanguage:csharp"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "C# Implementations CodeLens",
+      "properties": {
+        "csharpImplementationsCodeLens.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the implementations CodeLens in C# files."
+        },
+        "csharpImplementationsCodeLens.showOnInterfaceMembers": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the CodeLens on members declared inside interfaces (methods, properties, events, indexers)."
+        },
+        "csharpImplementationsCodeLens.showOnAbstractVirtualMembers": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the CodeLens on abstract and virtual members of classes."
+        },
+        "csharpImplementationsCodeLens.hideWhenZero": {
+          "type": "boolean",
+          "default": false,
+          "description": "Hide the CodeLens entirely when a symbol has no implementations, instead of showing \"no implementations\"."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "check-types": "tsc --noEmit",
+    "build": "npm run check-types && node esbuild.js --production",
+    "watch": "node esbuild.js --watch",
+    "package": "vsce package --allow-missing-repository"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "1.101.0",
+    "@vscode/vsce": "^3.3.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.5.0"
+  }
+}

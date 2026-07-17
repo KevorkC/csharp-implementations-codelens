@@ -1,0 +1,11 @@
+.vscode/**
+.claude/**
+src/**
+sample/**
+node_modules/**
+esbuild.js
+tsconfig.json
+.gitignore
+**/*.map
+**/*.vsix
+claude-code-prompt-csharp-implementations-codelens.md
