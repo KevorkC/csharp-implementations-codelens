@@ -2,9 +2,11 @@
 
 **See how many classes implement your C# interfaces — and jump straight to them.**
 
-This extension shows a Rider-style `N implementations` CodeLens above interfaces, interface members, and abstract/virtual members in C# files. It answers the everyday questions the built-in tooling makes you dig for: *Who implements this interface? Which classes override this virtual method? Is this abstract member implemented anywhere?*
+This extension shows a Rider-style `N implementations` CodeLens above interfaces, interface members, and abstract/virtual members in C# files.
 
 It complements the `N references` CodeLens you already get from the official C# extension — references tell you who *calls* a symbol, this tells you who *implements* it. If you're coming to VS Code from JetBrains Rider or Visual Studio and miss the implementations counter, this brings it back.
+
+![Implementations CodeLens shown above a C# interface and its member](demo.png)
 
 ## Features
 
