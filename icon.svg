@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>C# Implementations CodeLens</title>
+  <rect width="256" height="256" rx="56" fill="#1C1C1E"/>
+  <rect x="48" y="48" width="52" height="16" rx="8" fill="#5C5C61"/>
+  <rect x="111" y="44" width="5" height="24" rx="2.5" fill="#5C5C61"/>
+  <rect x="127" y="48" width="81" height="16" rx="8" fill="#FFB224"/>
+  <path d="M96 96Q78 96 78 122V125Q78 151 60 151Q78 151 78 177V180Q78 206 96 206" fill="none" stroke="#F2F2F2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 96Q178 96 178 122V125Q178 151 196 151Q178 151 178 177V180Q178 206 160 206" fill="none" stroke="#F2F2F2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

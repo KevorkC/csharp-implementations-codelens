@@ -6,6 +6,7 @@ node_modules/**
 esbuild.js
 tsconfig.json
 .gitignore
+icon.svg
 **/*.map
 **/*.vsix
 claude-code-prompt-csharp-implementations-codelens.md
