@@ -2,7 +2,7 @@
   "name": "csharp-implementations-codelens",
   "displayName": "C# Implementations CodeLens",
   "description": "Shows how many implementations a C# interface, interface member, or abstract/virtual member has — click to go to the implementation or peek all of them. Rider-style implementations CodeLens that complements the C# extension's references CodeLens.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "KevorkC",
   "license": "MIT",
   "repository": {
